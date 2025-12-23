@@ -1,21 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Neura Desk CRM – AI-Powered Sales Intelligence
+Overview
 
-# Run and deploy your AI Studio app
+Neura Desk CRM is a web-based Customer Relationship Management system enhanced with AI-driven analytics. The application helps sales teams manage customers, track leads, and gain insights to improve decision-making and sales performance.
 
-This contains everything you need to run your app locally.
+Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1DegT6LT_zUeWLFcqGAcyYcwg1i1avENq
+User authentication and role-based access
 
-## Run Locally
+Customer and lead management
 
-**Prerequisites:**  Node.js
+AI-powered lead scoring and insights
+
+Sales dashboard with performance metrics
+
+Activity tracking and system logs
+
+Tech Stack
+
+Frontend: HTML, CSS, JavaScript
+
+Backend: Python (Flask)
+
+Database: MySQL
+
+AI / Analytics: Machine Learning models
+
+Tools: Git, Visual Studio Code
+
+Project Structure
+neura-deskcrm/
+│── frontend/        # UI components
+│── backend/         # Application logic and APIs
+│── models/          # AI / ML models
+│── database/        # Database schema
+│── logs/            # System and activity logs
+│── README.md
+
+Screenshots
+
+Add screenshots to improve visual clarity.
+
+/screenshots
+ ├── login.png
+ ├── dashboard.png
+ ├── leads.png
+ ├── ai-insights.png
+ └── reports.png
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
 
+Setup (Quick)
+git clone https://github.com/your-username/neura-deskcrm-ai-powered-sales-intelligence.git
+cd neura-deskcrm
+pip install -r requirements.txt
+python app.py
+
+Security
+
+Secure login and session handling
+
+Input validation for data integrity
+
+Role-based access contro
